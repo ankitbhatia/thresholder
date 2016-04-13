@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="thresholder" type="thresholder" name="thresholder" output="screen">
+    <param name="x_threshold" value="1" />
+    <param name="y_threshold" value="1" />
+    <param name="z_threshold" value="10" />
+  </node>
+</launch>
